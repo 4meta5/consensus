@@ -11,6 +11,10 @@ Also, look at *Optimizing Rust Code* post by `trouble.md`.
 * **A long-running CPU-intensive task**, running on a thread pool. When the task finishes, the future is completed, and its value is the return value of the task.
 * **Reading bytes from a socket**. When the bytes are ready, the future is completed -- and depending on the buffering strategy, the bytes might be returned directly, or written as a side-effect into some existing buffer.
 
+## TODO
+
+* add notes from playground
+
 ## Projects and Ideas
 
 * consensus algorithms (experiment with existing synchronous Rust implementations)
