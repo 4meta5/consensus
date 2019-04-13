@@ -1,35 +1,36 @@
 # Consensus Algorithm Implementations with Futures
 > annotate each one and discuss code patterns that all of them have
 
+* [Accompanying Writing and In-Progress Explainers](./xplanerz/)
+
+**Rust Implementations of Popular Consensus Algorithms**
+* [PBFT]()
 * [Paxos](https://github.com/nwtnni/paxos)
-
-* [Honeybadger BFT](https://github.com/rphmeier/honeybadger)
-
-* [Rhododendron](https://github.com/paritytech/rhododendron)
-
+* [Honeybadger](https://github.com/rphmeier/honeybadger)
 * [Tendermint](https://github.com/paritytech/parity-ethereum/pull/9980/files)
     * switching to Rhododendron for better performance
-    * ask **June** -- what is the difference between *Tendermint and Rhododendron*?
+    * identify the difference between *Tendermint and Rhododendron*?
+* [Rhododendron](https://github.com/paritytech/rhododendron)
+* [Aura]()
+* [Babe]()
+* [Grandpa]()
+
+## TODO
+
+* finish BEAT Paper and organize notes
+* read and understand python code of Phragmen
+* port notes from `AmarRSingh/Notes/Blockchain/Consensus` to this repo
+
+## Misc Notes
+
+* Chain-based BFT protocols, such as Aliph-Chain BChain, and Shuttle favor throughput over latency.
+* Q/U achieves fault-scalability that tolerates increasing number of faults without significantly sacrificing performance.
+* Zyzzayva and Aliph are *hybrid* protocols that have high performance in failure-free cases.
+
 
 ## Async Helpers
 * *[`jonhoo/faktory-rs`](https://github.com/jonhoo/faktory-rs)* -- Rust bindings for Faktory clients and workers (may be useful for coding `async helpers`)
-    * tomusdr's pull request for off-chain clients
+    * tomusdr's pull request for off-chain workers
+    * Joe's project as a reference for optimal interaction
 
-## Accompanying Writing
-
-* Byzantine Generals Problem explained in Modern Terms
-
-* Sybil mechanism vs permissionless consensus
-    * barriers to entry and static validator sets in PoS
-    * power law as an economic law
-        * leads to centralization for Proof of Work and Proof of Stake
-        * which might be better? Capital is pretty centralized...so is Bitcoin
-
-* Finality as a Price Threshold
-    * use Alexis's post
-
-* CAP Theorem and Quick Block Production
-    * aura as an example
-
-* Sychrony Assumptions for Consensus Algorithms
-    * asynchrony
+* **Truebit** design is probably good for off-chain, verifiable computation
