@@ -1,5 +1,4 @@
 # Cryptography
-> explore niche cryptographic data structures
 
 * CRDT (commutative replicated data types)
 
@@ -17,4 +16,4 @@
 
 * elliptic curve stuff
 
-* merkle tree stuff
+* merkle tree stuff `=>` sparse merkle tree
