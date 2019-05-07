@@ -1,5 +1,4 @@
-# Consensus Research
-> w/ a healthy dose of networking and cryptography
+# Blockchain Consensus Research
 
 * [Consensus](./Consensus/README.md)
 * [Cryptography](./RealCrypto/README.md)
