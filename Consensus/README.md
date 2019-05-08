@@ -27,10 +27,13 @@
 * Q/U achieves fault-scalability that tolerates increasing number of faults without significantly sacrificing performance.
 * Zyzzayva and Aliph are *hybrid* protocols that have high performance in failure-free cases.
 
-
 ## Async Helpers
 * *[`jonhoo/faktory-rs`](https://github.com/jonhoo/faktory-rs)* -- Rust bindings for Faktory clients and workers (may be useful for coding `async helpers`)
     * tomusdr's pull request for off-chain workers
     * Joe's project as a reference for optimal interaction
 
 * **Truebit** design is probably good for off-chain, verifiable computation
+
+## Q
+
+* [Distributed Consensus (the Morning paper)](https://blog.acolyer.org/2019/05/07/distributed-consensus-revised-part-i/)
