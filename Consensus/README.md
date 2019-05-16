@@ -36,4 +36,6 @@
 
 ## Q
 
+* [UniqueChain: A Fast, Provably Secure Proof-of-Stake Based Blockchain Protocol in the Open Setting](https://eprint.iacr.org/2019/456)
+
 * [Distributed Consensus (the Morning paper)](https://blog.acolyer.org/2019/05/07/distributed-consensus-revised-part-i/)
