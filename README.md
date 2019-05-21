@@ -3,6 +3,11 @@
 * [Consensus](./Consensus/README.md)
 * [Cryptography](./RealCrypto/README.md)
 
+## TODO
+
+* `cp` notes from `notes/`
+* organize more properly and open source...
+
 ## Open Questions
 
 * how does borrowing across yield points influence what we can do with Aura (ie retroactively checking the delay on an offline report and unslashing?)

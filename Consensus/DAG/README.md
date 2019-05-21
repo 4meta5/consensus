@@ -8,6 +8,15 @@
 *Serialization of Proof of Work Events, Confirming Transactions via Recursive Elections*
 * systematic system for deciding pairwise ordering between two transactions
 
+* confirmation times of several seconds
+* high throughput (on-chain scalability)
+* miner rewards with low variance
+
+SPECTRE guarantees two main properties wrt transactions:
+1. **Weak Liveness**: transactions issued by *an honest user* gain fast confirmations 
+2. **Safety**: once a transaction is "accepted" by a recipient, it is unlikely to be double spent or reversed
+
+* [Paper](https://eprint.iacr.org/2016/1159.pdf)
 * [Explainer](https://medium.com/@avivzohar/the-spectre-protocol-7dbbebb707b5) by Aviv Zohar
 
 ### Iota
