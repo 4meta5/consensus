@@ -39,3 +39,5 @@
 * [UniqueChain: A Fast, Provably Secure Proof-of-Stake Based Blockchain Protocol in the Open Setting](https://eprint.iacr.org/2019/456)
 
 * [Distributed Consensus (the Morning paper)](https://blog.acolyer.org/2019/05/07/distributed-consensus-revised-part-i/)
+
+* *[My ETH 2.0 Notes](https://github.com/4meta5/notes/blob/master/Blockchain/Ethereum/Serenity.md)*
