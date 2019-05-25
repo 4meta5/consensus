@@ -6,9 +6,6 @@
 
 ## Reading List
 
-*misc*
-* [Account based Plasma (`MoreVP`)](https://ethresear.ch/t/account-based-plasma-morevp/5480)
-
 ### Probabilistic Payments
 
 1. [Plasma Cash Simple Spec](https://karl.tech/plasma-cash-simple-spec/) -- 3/14/2018; Karl Floersch
