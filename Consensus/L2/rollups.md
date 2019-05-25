@@ -10,3 +10,4 @@
 
 ## References
 * [recent twitter feed on rollup benefits by Vitalik and John Adler vs Rick Dudley](https://twitter.com/vitalikbuterin/status/1129782589596852229?refsrc=email&s=11)
+* [barryWhiteHat/roll_up](https://github.com/barryWhiteHat/roll_up)
