@@ -2,6 +2,7 @@
 
 * [Lightning Network](./lightning.md)
 * [Plasma](./plasma.md)
+* [State Channels](./statechannels.md)
 * [ZeroKnowledge Rollups](./rollups.md)
 
 ## Reading List
