@@ -1,6 +1,7 @@
 # Layer 2 Solutions
 
 * [Lightning Network](./lightning.md)
+* [Plasma](./plasma.md)
 * [ZeroKnowledge Rollups](./rollups.md)
 
 ## Reading List
