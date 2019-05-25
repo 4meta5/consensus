@@ -1,6 +1,6 @@
 # Plasma
 
-Plasma is a layer 2 consensus mechanism that employs fraud proofs to enforce state transitions on the main blockchain. This class of L2 protocols relies heavily on an `assert/challenge` framework. The basic idea is to use time commitments to construct a fidelity bond which acts as the `assert/challenge` agreement such that the asserted data is subject to a dipute period during which an abserver may submit a proof to enforce(/prevent) valid(/invalid) state transitions.
+Plasma is a layer 2 consensus mechanism that employs [fraud proofs](https://arxiv.org/abs/1809.09044) to enforce state transitions on the main blockchain. This class of L2 protocols relies heavily on an `assert/challenge` framework. The basic idea is to use time commitments to construct a fidelity bond which acts as the `assert/challenge` agreement such that the asserted data is subject to a dipute period during which an abserver may submit a proof to enforce(/prevent) valid(/invalid) state transitions.
 
 Plasma is *recursive* and may maintain arbitrary depth at the gradual loss of availability. In the [whitepaper](https://plasma.io/plasma.pdf), Plasma's ability to nest channels is compared to the court system:
 
