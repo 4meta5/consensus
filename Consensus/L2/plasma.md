@@ -12,7 +12,7 @@ Plasma is *recursive* and may maintain arbitrary depth at the gradual loss of av
 
 ## Plasma Cash is Plasma
 
-*[ethresear.ch: plasma with much less per user data checking](https://ethresear.ch/t/plasma-cash-plasma-with-much-less-per-user-data-checking/1298)
+*[ethresear.ch: plasma with much less per user data checking](https://ethresear.ch/t/plasma-cash-plasma-with-much-less-per-user-data-checking/1298)*
 * [Simon DLR Plasma Cash Primer](https://blog.ujomusic.com/a-plasma-cash-primer-27dcfd1d5ddc)
 
 ## Plasma XT
