@@ -1,17 +1,22 @@
 # Blockchain Consensus Research
 
-* [Consensus](./Consensus/README.md)
-* [Cryptography](./RealCrypto/README.md)
+*This repo holds my personal notes on modern blockchain consensus mechanisms.* It is organized hierarchically, split between `Consensus` and `Cryptography`. Most reference code is in Rust.
 
-## TODO
+* [`Consensus`](./Consensus/README.md)
+* [`Cryptography`](./RealCrypto/README.md)
 
-* `cp` notes from `notes/`
-* organize more properly and open source...
+## Consensus
 
-## Open Questions
+*Base layer consensus protocols that take inspiration or closely resemble PBFT*
+* [BEAT: Asynchronous BFT Made Practical](./Consensus/BEAT.md)
+* [HoneyBadgerBFT](./HoneyBadgerBFT.md)
+* [Ouroboros](./Ouroboros.md)
 
-* how does borrowing across yield points influence what we can do with Aura (ie retroactively checking the delay on an offline report and unslashing?)
+**Related Research**
+* [Layer 2 Scaling Mechanisms](./Consensus/L2) encompasses all off-chain message passing that uses the base chain for dispute resolution (including [Lightning](./Consensus/L2/lightning.md), [State Channels](./Consensus/L2/statechannel.md), [Plasma](./Consensus/L2/plasma.md), and [Zero Knowledge Rollups](./rollups.md))
+* [Supporting Mechanisms](./Consensus/Support) includes [fee] `(./Consensus/support/fee.md)` structures, [finality mechanisms] `(./finality.md)`, and [nPoS] `(./nPoS.md)`
+* [Directed Acyclic Graphs (DAG) protocols](./Consensus/DAG) includes [CasperCBC] `(./CasperCBC.md)`, [SPECTRE]`(./spectre.md)`, [Casanova] `(./casanova.md)`
 
-* [dat-rs]https://github.com/datrs) `=>` libp2p?
+## Cryptography
 
-* [fitzgen/state_machine_future](https://github.com/fitzgen/state_machine_future) -- easily create type-safe `Future`s from state machines?
+*WIP*
