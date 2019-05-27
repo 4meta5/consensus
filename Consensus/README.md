@@ -7,7 +7,7 @@
 
 **Related Research**
 * [Layer 2 Scaling Mechanisms](./L2) encompasses all off-chain message passing that uses the base chain for dispute resolution (including [Lightning](./L2/lightning.md), [State Channels](./L2/statechannel.md), [Plasma](./L2/plasma.md), and [Zero Knowledge Rollups](./L2/rollups.md))
-* [Ancillary Mechanisms](./ancillary) includes [fee](./ancillary/fee.md) structures, [finality mechanisms](./ancillary/finality.md), and [nPoS](./ancillary/nPoS.md)
+* [Ancillary Mechanisms](./ancillary) includes [fee](./ancillary/fee.md) structures, [finality mechanisms](./ancillary/finality.md), and [nPoS](./ancillary/npos.md)
 * [Directed Acyclic Graphs (DAG) protocols](./DAG) includes CasperCBC, SPECTRE, Casanova
 
 ## Pure Rust Consensus Algorithms
