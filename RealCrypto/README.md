@@ -7,11 +7,12 @@
 ## Current Focus
 
 * Commutative Replicated Data Types (or Conflict-Free Replicated Data Types)
-* Shamir's Secret Sharing Scheme
+* [Secret Sharing](https://eprint.iacr.org/2016/929.pdf)
 <!--    * with `futures`
     * look at the StakingSlasher struct wrapper in `aura` extension module -->
-* Proxy Re Encryption
-* Bulletproofs for range proofs
+* [Proxy Re Encryption](https://www.nucypher.com/static/whitepapers/english.pdf)
+* [Bulletproofs](https://crypto.stanford.edu/bulletproofs/)
+* [Accumulators](https://github.com/cambrian/accumulator)
 
 **Radix Trees**
 * [Scale By The Bay 2018: Tikhon Jelvis, Radix Trees: How IntMap Works](https://www.youtube.com/watch?v=jh3V4X1izfQ)
