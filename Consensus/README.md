@@ -6,9 +6,9 @@
 * Ouroboros
 
 **Related Research**
-* [Layer 2 Scaling Mechanisms](./Consensus/L2) encompasses all off-chain message passing that uses the base chain for dispute resolution (including [Lightning](./Consensus/L2/lightning.md), [State Channels](./Consensus/L2/statechannel.md), [Plasma](./Consensus/L2/plasma.md), and [Zero Knowledge Rollups](./rollups.md))
-* [Ancillary Mechanisms](./Consensus/ancillary) includes [fee](./Consensus/ancillary/fee.md) structures, [finality mechanisms](./Consensus/ancillary/finality.md), and [nPoS](./Consensus/ancillary/nPoS.md)
-* [Directed Acyclic Graphs (DAG) protocols](./Consensus/DAG) includes CasperCBC, SPECTRE, Casanova
+* [Layer 2 Scaling Mechanisms](./L2) encompasses all off-chain message passing that uses the base chain for dispute resolution (including [Lightning](./L2/lightning.md), [State Channels](./L2/statechannel.md), [Plasma](./L2/plasma.md), and [Zero Knowledge Rollups](./L2/rollups.md))
+* [Ancillary Mechanisms](./ancillary) includes [fee](./ancillary/fee.md) structures, [finality mechanisms](./ancillary/finality.md), and [nPoS](./ancillary/nPoS.md)
+* [Directed Acyclic Graphs (DAG) protocols](./DAG) includes CasperCBC, SPECTRE, Casanova
 
 ## Pure Rust Consensus Algorithms
 * [PBFT](https://github.com/losfair/pbft-rs)
