@@ -2,7 +2,7 @@
 
 * [Data Structures](./primitives)
 * [Algebra](./algebra)
-* [Erasure Encoding](./erasure; [information theory reference link](https://github.com/AmarRSingh/notes/tree/master/Cryptography/InformationTheory)
+* [Erasure Encoding](./erasure); [information theory reference link](https://github.com/AmarRSingh/notes/tree/master/Cryptography/InformationTheory)
 
 **Reference Code**
 * [Stable Cryptography](#stable)
