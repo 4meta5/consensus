@@ -14,7 +14,7 @@
 
 **Related Research**
 * [Layer 2 Scaling Mechanisms](./Consensus/L2) encompasses all off-chain message passing that uses the base chain for dispute resolution (including [Lightning](./Consensus/L2/lightning.md), [State Channels](./Consensus/L2/statechannel.md), [Plasma](./Consensus/L2/plasma.md), and [Zero Knowledge Rollups](./Consensus/L2/rollups.md))
-* [Ancillary Mechanisms](./Consensus/ancillary) includes [fee](./Consensus/ancillary/fee.md) structures, [finality mechanisms](./Consensus/ancillary/finality.md), and [nPoS](./Consensus/ancillary/npos.md)
+* [Ancillary Mechanisms](./Consensus/ancillary) includes [fee](./Consensus/ancillary/fee.md) structures, [finality mechanisms](./Consensus/ancillary/finality.md), and [uncle blocks](./Consensus/ancillary/uncle.md)
 * [Directed Acyclic Graphs (DAG) protocols](./Consensus/DAG) includes CasperCBC, SPECTRE, Casanova
 
 ## Cryptography
