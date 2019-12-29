@@ -12,8 +12,19 @@
 
 * read Lamport's paper on part-time parliaments and islands
 
-**Databases to read about**
+* tracking consensus on an offset rather than blocking on quorum agreement
+
+* **learners** are like a cache for telling which values are finalized (*decided*)
+
+**Reading List**
 * `ectd`, Cassandra
+* [mencius](https://www.usenix.org/legacy/event/osdi08/tech/full_papers/mao/mao_html/)
+* [epaxos](https://github.com/efficient/epaxos)
+* [caspaxos](https://github.com/rystsov/caspaxos)
+* https://dsrg.pdos.csail.mit.edu/
+* https://blog.acolyer.org/2015/03/01/cant-we-all-just-agree/
+
+* `fsync`
 
 ## Questions
 
